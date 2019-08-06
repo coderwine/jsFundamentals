@@ -18,7 +18,8 @@ let Hello; // this would be a new var.
 let firstName = 'Eric';
 
 //var is considered an "old" term.  Typically use "let"
-//Const.  ES6 - unchangable variables.
+//Const.  ES6 - unchangable variables.  ??DEFINE ES6
+              // https://developer.mozilla.org/en-US/docs/Web/JavaScript - defined ES6
 
 /*
 Declarations are the LEFT SIDE of a variable
