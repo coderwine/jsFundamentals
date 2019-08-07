@@ -49,7 +49,7 @@ subTotal = 50;
 
 let tipCalc = (x) => {
     let tipPercent = .3;
-    let tip = x *= tipPercent;
+    let tip = x * tipPercent;
     let finalAmount = x + tip;
     return finalAmount;
 }
