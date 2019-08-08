@@ -10,6 +10,14 @@ if (weather < 70) {
     console.log('No jacket needed');
 };
 
+
+let door = "closes";
+
+if (door != 'open') {
+    console.log("Good Car Otherwise...")
+};
+
+
 // CHALLENGE
 /*
 let name = 'Eric';
