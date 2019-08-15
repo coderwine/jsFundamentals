@@ -17,7 +17,7 @@ console.log(typeof colors.toString());
 let numbers = [1,2,3,4,5];
 
 //console.log(typeof arr);  //prints out "object"
-//console.log(Array.isArray(arr));    //true
+console.log(Array.isArray(numbers));    //true
 //console.log(arr.reverse());
 //console.log(arr instanceof Array);
 

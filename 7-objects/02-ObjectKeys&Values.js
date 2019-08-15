@@ -33,9 +33,10 @@ let spaceJam = {
 //   console.log(Object.keys(spaceJam.toonSquad));
 //   console.log(Object.keys(spaceJam.toonSquad.duck));
   
-//   console.log(Object.values(spaceJam.toonSquad));  
+//  console.log(Object.values(spaceJam.toonSquad));  
 
 let array = Object.values(spaceJam.toonSquad);
-console.log(array[3]);  //pulling a specific item from the above object.
+console.log(array[3]);
+//pulling a specific item from the above object.
   
   

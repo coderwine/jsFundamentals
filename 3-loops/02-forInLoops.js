@@ -10,7 +10,7 @@ Used for iterating over ENUMERABLE values in an object. This is great for debugg
 let student = {name: 'Peter', awesome: true, degree: "JavaScript", week: 1};  //object
 
 for(let item in student){
-    //console.log(item[1]);
+    // console.log(item[1]);
     console.log(student[item]);
 }
 
@@ -38,3 +38,17 @@ for(let x in name) {  // x in this will search through the index of the containe
 }
 
 console.log(capName);  //the For In loop creates a new index of the name.
+
+let dog = 'dOg';
+let act;
+
+for (let prop in dog){
+    if (prop === 0) {
+        act = dog[prop].toUpperCase
+    } else {
+        act += dog[prop].toLowerCase
+    };
+    // (prop === 0) ? console.log(prop.toUpperCase)
+    //     : console.log(prop.toLowerCase);
+};
+console.log(act);

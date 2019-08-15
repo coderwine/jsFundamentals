@@ -13,8 +13,10 @@ for(let item of student){
 
 let dogArray = ['husky', 'shepherd', 'corgi', 'poodle', 'pit bull', 'border collie'];
 
-for(let dog of dogArray) {
-    console.log( dog, 'goes bark');
-}
+// for(let dog of dogArray) {
+//     console.log( dog, 'goes bark');
+// }
 
-
+dogArray.forEach(string => {
+    console.log(string)
+});

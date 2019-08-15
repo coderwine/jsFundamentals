@@ -41,7 +41,25 @@ function list(){
     for (word of arr) {
         console.log(word);
     }
+
+   console.log(arr[0],arr[1],arr[2],arr[3]);
 }
 
 list();
 
+
+
+
+
+let arr = ['This', 'is', 'really', 'cool'];
+
+function string() {
+    // console.log(arr[0],arr[1],arr[2],arr[3]);
+    let string = 0
+    if (string = 0, string <= arr.length, string++) {
+        console.log(arr[0]);
+    } else {
+        console.log(arr[0]+string);
+    }
+}
+string();
